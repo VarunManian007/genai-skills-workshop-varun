@@ -1,0 +1,70 @@
+{
+  "playbook": {
+    "playbook": {
+      "displayName": "Aurora Bay Generative FAQ Playbook",
+      "goal": "Provide accurate and clear answers to frequently asked questions from citizens.\nEnsure the information reflects official town policies and services.\nAll responses should be consistent with what the town actually provides.",
+      "steps": [ {
+        "text": "Respond Accurately and Clearly."
+      }, {
+        "text": "Maintain a Helpful and Respectful Tone."
+      }, {
+        "text": "Stay Aligned with Town Services."
+      }, {
+        "text": "Avoid Assumptions or Guesswork"
+      } ],
+      "tools": [ "a418b051-1678-4d49-96b5-23dd7129fb2c" ],
+      "etag": "684fff47",
+      "playbookId": "00000000-0000-0000-0000-000000000000",
+      "tokenCount": 73,
+      "playbookType": "WORKFLOW",
+      "codeBlock": {
+      
+      }
+    },
+    "tools": [ {
+      "id": "a418b051-1678-4d49-96b5-23dd7129fb2c",
+      "displayName": "Aurora datastore",
+      "etag": "684ffa52",
+      "dataStoreTool": {
+        "dataStoreConnections": [ {
+          "dataStoreType": "UNSTRUCTURED",
+          "dataStore": "projects/595976518994/locations/global/collections/default_collection/dataStores/aurora-datastore_1750070110870",
+          "documentProcessingMode": "DOCUMENTS",
+          "engineType": "CHAT_ENGINE",
+          "connectorConfig": {
+          
+          },
+          "createTime": {
+            "seconds": 1750070146,
+            "nanos": 3856000
+          },
+          "displayName": "Aurora Datastore",
+          "dialogflowAddTime": {
+            "seconds": 1750071866,
+            "nanos": 370000000
+          }
+        } ],
+        "models": {
+          "summarizationModel": {
+          
+          },
+          "rewriterModel": {
+          
+          }
+        },
+        "fallbackPrompt": {
+        
+        },
+        "groundingSettings": {
+        
+        },
+        "payloadSettings": {
+        
+        },
+        "voiceModeSettings": {
+        
+        }
+      }
+    } ]
+  }
+}
