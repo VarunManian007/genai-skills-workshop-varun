@@ -1,7 +1,7 @@
 
 # Alaska Snow Department AI Agent
 
-This project implements a secure, production-ready Generative AI agent for the Alaska Department of Snow. It uses RAG (Retrieval-Augmented Generation) and integrates safety filtering and backend API functionality. It is built with Python and Streamlit and can be deployed on GCP.
+This project implements a secure, production-ready Generative AI agent for the Alaska Department of Snow. It uses RAG (Retrieval-Augmented Generation) and integrates safety filtering and backend API functionality. It is built with Python and Streamlit and deployed on GCP.
 
 ## Project URL:
 ```bash
