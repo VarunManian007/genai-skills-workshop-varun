@@ -100,10 +100,9 @@ Developed by: Varun Venkatasubramanian
 ## Note
 
 1. For local testing service account json is used for GCP authentcation.
-2. Line from backend.py 
+2. Line from backend.py is commented during the gcloud run deployment.
 ```
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "alaska_admin_key.json")
 ```
-is commented during the gcloud run deployment.
 ---
 
